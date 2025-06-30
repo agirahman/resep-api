@@ -10,7 +10,7 @@ df = pd.read_csv("gabungan_resep.csv")
 
 @app.route('/')
 def home():
-    return "API Resep Deta Siap Digunakan 🍽️"
+    return "API Resep Deta Siap Digunakan coyy 🍽️"
 
 
 @app.route('/search', methods=['POST'])
